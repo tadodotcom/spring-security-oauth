@@ -1,0 +1,3 @@
+install:
+   - echo "Running a custom install command to create test-jar also"
+   - mvn clean jar:test-jar install -DskipTests
