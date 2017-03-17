@@ -24,6 +24,13 @@
     <java.version>1.6</java.version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
   <scm>
     <url>http://github.com/SpringSource/spring-security-oauth</url>
     <connection>scm:git:git://github.com/SpringSource/spring-security-oauth.git</connection>
@@ -282,6 +289,12 @@
 			<artifactId>commons-codec</artifactId>
 			<version>${commons-codec.version}</version>
 		</dependency>
+
+        <dependency>
+            <groupId>com.github.User</groupId>
+            <artifactId>Repo</artifactId>
+            <version>Tag</version>
+        </dependency>
 
     </dependencies>
   </dependencyManagement>
